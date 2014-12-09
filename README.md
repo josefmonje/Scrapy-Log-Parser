@@ -7,7 +7,7 @@ Command line script to extract then visualize spider tracks from scrapy logs
 Usage:
 
 `python scrapy_log_parser.py scrapy_debug.log`
-(log level=DEBUG)
+log level=DEBUG
 
 
 Output:
@@ -22,7 +22,7 @@ In tree.html, change filename:
 
 Use `python -m "SimpleHTTPServer"`
 
-(for the ajax to work)
+for the ajax to work
 
 
 Pull requests are welcome!
