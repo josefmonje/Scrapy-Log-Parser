@@ -4,15 +4,25 @@ Scrapy-Log-Parser
 Command line script to extract then visualize spider tracks from scrapy logs
 
 
-usage:
-    `python scrapy_log_parser.py scrapy_debug.log (log level DEBUG)`
+Usage:
 
-output:
-    `scrapy_debug_data.json`
+`python scrapy_log_parser.py scrapy_debug.log`
+(log level=DEBUG)
 
-in tree.html, change filename:
-    `d3.json("/scrapy_debug_data.json")`
 
-use `python -m "SimpleHTTPServer"` for the ajax to work.
+Output:
 
-pull requests are welcome!
+`scrapy_debug_data.json`
+
+
+In tree.html, change filename:
+
+`d3.json("/scrapy_debug_data.json")`
+
+
+Use `python -m "SimpleHTTPServer"`
+
+(for the ajax to work)
+
+
+Pull requests are welcome!
