@@ -25,13 +25,16 @@
 <div id="tree-container"></div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="tree/d3.min.js"></script>
-<script type="text/javascript" src="tree/d3.layout.min.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript" src="buildTree.js"></script>
 
 <script>
     $(function(){
-        buildTree("#tree-container");
+        d3.json("/scrapy_debug_data.json", function(error, json) {
+            if (error) return console.warn(error);
+            treeData = json;
+            buildTree("#tree-container");
+        })
     });
 </script>
 
