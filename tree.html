@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Demo of the tree layout in D3.js</title>
+    <style>
+        g.node {
+            font-family: Verdana, Helvetica;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        circle.node-dot {
+            fill: lightsalmon;
+            stroke: red;
+            stroke-width: 1px;
+        }
+
+        path.link {
+            fill: none;
+            stroke: gray;
+        }
+    </style>
+</head>
+<body>
+
+<div id="tree-container"></div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="tree/d3.min.js"></script>
+<script type="text/javascript" src="tree/d3.layout.min.js"></script>
+<script type="text/javascript" src="buildTree.js"></script>
+
+<script>
+    $(function(){
+        buildTree("#tree-container");
+    });
+</script>
+
+</body>
+</html>
