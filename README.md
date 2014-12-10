@@ -1,4 +1,4 @@
-Scrapy-Log-Parser
+Scrapy Log Parser
 =================
 
 Command line script to extract then visualize spider tracks from scrapy logs
