@@ -30,4 +30,4 @@ for the ajax to work
 Pull requests are welcome!
 
 
-credits to ![http://blog.pixelingene.com](http://blog.pixelingene.com/2011/07/building-a-tree-diagram-in-d3-js/) for the tree demo
+credits to [http://blog.pixelingene.com](http://blog.pixelingene.com/2011/07/building-a-tree-diagram-in-d3-js/) for the tree demo
