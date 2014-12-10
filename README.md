@@ -3,6 +3,7 @@ Scrapy Log Parser
 
 Command line script to extract then visualize spider tracks from scrapy logs
 
+![Screenshot](https://github.com/josefmonje/Scrapy-Log-Parser/blob/master/Screenshot.png "Screenshot")
 
 Usage:
 
