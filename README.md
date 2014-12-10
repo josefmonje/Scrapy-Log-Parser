@@ -8,7 +8,7 @@ Usage:
 
 `python scrapy_log_parser.py scrapy_debug.log`
 
-log level must be DEBUG
+log level must be set to DEBUG
 
 
 Output:
