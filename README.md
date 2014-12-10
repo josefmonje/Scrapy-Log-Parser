@@ -7,7 +7,8 @@ Command line script to extract then visualize spider tracks from scrapy logs
 Usage:
 
 `python scrapy_log_parser.py scrapy_debug.log`
-log level=DEBUG
+
+log level must be DEBUG
 
 
 Output:
