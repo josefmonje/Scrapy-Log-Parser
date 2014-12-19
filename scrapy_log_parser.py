@@ -10,7 +10,7 @@ ref_marker = '> (referer: '
 def recurse(url, ref, data):
     if type(data) == type({}):
         if 'name' in data.keys() and data['name'] == ref:
-            # data['contents'] = []
+            data['contents'] = []
             content = {'name': url}
             data['contents'].append(content)
         if 'contents' in data.keys():
@@ -18,10 +18,10 @@ def recurse(url, ref, data):
                 recurse(url, ref, content)
         else:
             data['name'] = url
-            data['contents'] = []
+            # data['contents'] = []
 
 if len(args) == 1:
-    print 'usage: python ', args[0], ' [scrapy logfile (DEBUG level)]'
+    print 'usage: python ', args[0], ' <scrapy logfile (DEBUG level)>'
 
 if len(args) > 1:
     for arg in args[1:]:
